@@ -1,0 +1,11 @@
+[package]
+name = "cargo-check-tag"
+description = "Cargo extension to check that the Git tag in CI matches the crate version"
+repository = "https://github.com/wlcx/cargo-check-tag"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+
+[dependencies]
+cargo_metadata = "0.20.0"
+
